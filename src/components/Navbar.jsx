@@ -1,5 +1,5 @@
-import valo from "/public/images/valo.png";
-import hacker from "/public/images/hacker1.png";
+import valo from "../assets/valo.png";
+import hacker from "../assets/hacker1.png";
 import React from 'react';
 import { Link } from 'react-scroll';
 
