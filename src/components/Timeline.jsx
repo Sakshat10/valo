@@ -4,7 +4,7 @@ import Event from "./Event";
 const Timeline = () => {
   return (
     <>
-      <div className="min-h-screen md:py-14 py-16   min-w-full bg-[rgba(0,0,0,0.3)] relative flex flex-col md:gap-20 gap-20 items-center ">
+      <div className="min-h-screen md:py-14 py-16   min-w-full bg-[rgba(0,0,0,0.3)] relative flex flex-col md:gap-20 gap-20 items-center " name="Schedule">
         <div className="absolute w-full top-0 h-full -z-10">
           <img
             src="/images/Timeline .jpg"
@@ -12,7 +12,7 @@ const Timeline = () => {
             className="w-full h-full object-cover"
           />
         </div>
-        <h2 className="text-3xl  px-7 py-1 text-[#e53d57] font-semibold  bg-transparent backdrop-blur-sm w-fit h-fit rounded-full font-montserrat">
+        <h2 className="text-3xl mt-4 px-7 py-1 text-[#e53d57] font-semibold  bg-transparent backdrop-blur-sm w-fit h-fit rounded-full font-montserrat">
           Event Timeline
         </h2>
         <div className="lg:w-[82%] md:w-[75%] w-[175%] h-[1px] absolute lg:top-[47%] md:top-[48%] top-[56%] translate-y-1/2 rotate-90 lg:rotate-0 left-[50%] -translate-x-1/2 lg:translate-x-0  lg:left-16 bg-[#9fdbff]" />
