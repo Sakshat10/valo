@@ -1,13 +1,17 @@
 import { motion } from "framer-motion";
 import Event from "./Event";
+import timeline from "../assets/Timeline.jpg";
 
 const Timeline = () => {
   return (
     <>
-      <div className="min-h-screen md:py-14 py-16   min-w-full bg-[rgba(0,0,0,0.3)] relative flex flex-col md:gap-20 gap-20 items-center " name="Schedule">
+      <div
+        className="min-h-screen md:py-14 py-16   min-w-full bg-[rgba(0,0,0,0.3)] relative flex flex-col md:gap-20 gap-20 items-center "
+        name="Schedule"
+      >
         <div className="absolute w-full top-0 h-full -z-10">
           <img
-            src="/src/assets/Timeline.jpg"
+            src={timeline}
             alt="background"
             className="w-full h-full object-cover"
           />
