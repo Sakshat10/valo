@@ -7,7 +7,7 @@ const Timeline = () => {
       <div className="min-h-screen md:py-14 py-16   min-w-full bg-[rgba(0,0,0,0.3)] relative flex flex-col md:gap-20 gap-20 items-center " name="Schedule">
         <div className="absolute w-full top-0 h-full -z-10">
           <img
-            src="/images/Timeline .jpg"
+            src="../assets/Timeline.jpg"
             alt="background"
             className="w-full h-full object-cover"
           />
