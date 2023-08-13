@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (min-width: 10px) and (max-width: 639px) {
+    .custom-height {
+        height: 50px;/* Replace with your desired color */
+    }
+    .custom-logo{
+        height: 12px;
+        width: 12px;
+        z-index: 100;
+    }
+    .custom-hidden{
+        visibility: hidden;
+    }
+    .custom-flex{
+        display: flex;
+        justify-content: space-between;
+        width: 1000vw;
+    }
+  }
