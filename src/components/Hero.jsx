@@ -1,9 +1,9 @@
 import React from 'react'
-import Hero1 from "../../public/images/hero.jpg"
-import img from "../../public/images/background.png";
-import img2 from "../../public/images/Dominos.png";
-import img3 from "../../public/images/thread.png";
-import img4 from "../../public/images/time.png";
+import Hero1 from "/public/images/hero.jpg"
+import img from "/public/images/background.png";
+import img2 from "/public/images/Dominos.png";
+import img3 from "/public/images/thread.png";
+import img4 from "/public/images/time.png";
 
 const Hero = () => {
   return (
