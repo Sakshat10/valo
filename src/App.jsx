@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 // eslint-disable-next-line no-unused-vars
 import Form from "./components/Form";
+import Footer2 from "./components/Footer2";
 
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
       <Hero/>
       <Timeline/>
       <Form />
-      
+      <Footer2/>
     </>
   );
 }
