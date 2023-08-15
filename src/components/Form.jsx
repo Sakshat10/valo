@@ -1,5 +1,5 @@
 import pic from "../assets/Form.jpg";
-import "./valorant.css";
+import "../css/valorant.css";
 const Form=()=>{
     const backgroundImageStyle = {
         backgroundImage: `url(${pic})`, // Convert the imported image to a URL
@@ -63,6 +63,24 @@ const Form=()=>{
             name="Organisation/ University"
             id="confirm-password"
             placeholder="Designation/ Field"
+            required
+          />
+          <br />
+          <br />
+          <input
+            type="text"
+            name="Job-Title"
+            id="confirm-password"
+            placeholder="Job-Title"
+            required
+          />
+          <br />
+          <br />
+          <input
+            type="text"
+            name="Gender"
+            id="confirm-password"
+            placeholder="Gender"
             required
           />
           <br />
